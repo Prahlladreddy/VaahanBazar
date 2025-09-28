@@ -26,6 +26,7 @@ Key Features / Modules:
 ## c) System Architecture  
 
 Architecture Diagram / Workflow:  
+
 <img width="1918" height="841" alt="vahanbazar" src="https://github.com/user-attachments/assets/2584430f-7659-424b-9261-dc89f4d0a730" />
 
 
