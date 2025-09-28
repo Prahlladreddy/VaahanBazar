@@ -1,5 +1,3 @@
-<img width="1536" height="1023" alt="image" src="https://github.com/user-attachments/assets/3898a029-fd16-40c4-8115-346d5f2a03a7" /># VaahanBazar – Two-Wheeler Marketplace Web App
-
 ## a) Problem Statement Reference  
 
 Problem Statement Chosen:  
