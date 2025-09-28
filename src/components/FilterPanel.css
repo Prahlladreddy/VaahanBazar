@@ -1,0 +1,85 @@
+.filter-panel {
+  margin-bottom: 20px;
+}
+
+.filter-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.filter-input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.filter-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: white;
+}
+
+.filter-select:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.price-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.price-inputs .filter-input {
+  flex: 1;
+}
+
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-checkbox input {
+  margin-right: 8px;
+}
+
+.reset-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.reset-btn:hover {
+  background: #c0392b;
+}

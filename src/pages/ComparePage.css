@@ -1,0 +1,91 @@
+/* src/pages/ComparePage.css */
+.compare-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.compare-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1e40af;
+  text-align: center;
+}
+
+.compare-selection {
+  margin-bottom: 2rem;
+}
+
+.selection-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.selection-subtitle {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.selection-actions {
+  margin-top: 1rem;
+}
+
+.clear-btn {
+  padding: 0.5rem 1rem;
+  background-color: #f3f4f6;
+  color: #4b5563;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.clear-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.comparison-result {
+  margin-top: 2rem;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(37, 99, 235, 0.2);
+  border-radius: 50%;
+  border-top-color: #2563eb;
+  animation: spin 1s ease-in-out infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.message-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+  text-align: center;
+  color: #4b5563;
+}
